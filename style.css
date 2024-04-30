@@ -5,8 +5,11 @@
 }
 
 /* Main Start */
-body {
+* {
   font-family: Poppins, Poppins2, sans-serif;
+}
+
+body {
   margin: 25px;
   background-color: #1c1c1c;
   color: rgb(240, 240, 240);
@@ -66,7 +69,6 @@ a {
   border-radius: 5px;
   border-bottom-left-radius: 0;
   cursor: pointer;
-  font-family: Poppins, Poppins2, sans-serif;
 }
 
 .dropdown .content {
