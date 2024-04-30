@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap");
+@font-face {
+  font-family: Poppins2;
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
+/* Main Start */
+body {
+  font-family: Poppins2, Poppins, sans-serif;
+  margin: 25px;
+  background-color: #1c1c1c;
+  color: rgb(240, 240, 240);
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%234c4c4c' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 16px 60px;
+  border-radius: 16px;
+}
+/* Main END*/
+
+/* Top Start */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.bar {
+  margin: 0 8px;
+  font-weight: 900;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.NavBar a {
+  text-decoration: none;
+  color: rgb(114, 159, 188);
+  transition: all 0.5s ease;
+}
+
+.NavBar a:hover {
+  color: rgb(78, 78, 216);
+  text-decoration: underline 2px;
+}
+
+.NavBar a:active {
+  color: rgb(0, 0, 129);
+}
+
+#title {
+  margin-left: 5px;
+  animation: titleswap 0.7s 0.1s;
+}
+
+.dropdown button {
+  padding: 9px 12px;
+  font-size: 15px;
+  background-color: rgb(208, 208, 208);
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+}
+
+.dropdown .content {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  padding: 7px;
+  border-radius: 13px;
+  margin-top: 10px;
+  border-top-left-radius: 0px;
+  border: 2px solid rgb(255, 255, 255);
+  display: none;
+  transition: all 0.4s ease;
+}
+
+.dropdown .content h4 {
+  margin: 7px;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.workshop {
+  color: rgb(124, 124, 201);
+}
+
+::marker {
+  content: "◉";
+}
+
+.forum {
+  color: rgb(123, 0, 0);
+}
+
+.liste a {
+  margin-left: 12px;
+  margin-top: 2px;
+}
+
+i {
+  font-size: 20px;
+}
+
+/* Bar END */
+
+/* Mods... Start */
+
+#Brutal:hover::after {
+  color: red;
+  content: " Ne pas utiliser d'autre mods graphique";
+}
+
+#cannotbrutal:hover::after {
+  color: red;
+  content: " Ne peut pas être utilisé avec Brutal Weather";
+}
+
+/* Mods... END */
+
+/* DONT TOUCH THAT !!! */
+
+@keyframes titleswap {
+  from {
+    transform: translateX(-30px);
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
