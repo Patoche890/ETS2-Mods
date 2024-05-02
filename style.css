@@ -123,6 +123,11 @@ i {
   content: " Ne peut pas être utilisé avec Brutal Weather";
 }
 
+#wazedark:hover::after {
+  color: red;
+  content: " Doit être placé au dessus de 'Waze'";
+}
+
 /* Mods... END */
 
 /* DONT TOUCH THAT !!! */
