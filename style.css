@@ -109,6 +109,10 @@ i {
   font-size: 20px;
 }
 
+.fa-circle-xmark {
+  font-size: 16px;
+}
+
 /* Bar END */
 
 /* Mods... Start */
@@ -126,6 +130,11 @@ i {
 #wazedark:hover::after {
   color: red;
   content: " Doit être placé au dessus de 'Waze'";
+}
+
+#needpromods:hover::after {
+  color: red;
+  content: " Necessite un compte promods.net";
 }
 
 /* Mods... END */
