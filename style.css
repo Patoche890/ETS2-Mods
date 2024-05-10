@@ -154,6 +154,24 @@ h4 {
   content: " Utilise beaucoup de performances (Nécessite un bon PC)";
 }
 
+#workwith1:hover ::after {
+  color: red;
+  font-family: Poppins, Poppins2, sans-serif;
+  font-style: normal;
+  font-size: medium;
+  font-weight: 500;
+  content: " Marche que avec le DLC Mighty Griffin et le mod 'Next Generation Scania P G R S Pack'";
+}
+
+#workwith2:hover ::after {
+  color: red;
+  font-family: Poppins, Poppins2, sans-serif;
+  font-style: normal;
+  font-size: medium;
+  font-weight: 500;
+  content: " Marche que avec le DLC HS Schoch et le mod 'Next Generation Scania P G R S Pack'";
+}
+
 /* Mods... END */
 
 /* DONT TOUCH THAT !!! */
