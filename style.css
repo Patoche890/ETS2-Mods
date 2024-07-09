@@ -121,6 +121,21 @@ h4 {
   margin-top: 17px;
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social a {
+  transition: all 0.25s ease;
+}
+
+.social a:hover {
+  color: #555;
+}
+
 /* Top END */
 
 /* Mods... Start */
